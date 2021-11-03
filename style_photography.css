@@ -1,0 +1,81 @@
+
+
+body{
+  background-color: #0f0e0c;
+  color: white;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family:'Times New Roman', Times, serif;
+}
+.p2{
+  font-size: 15 px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+/* Nav Bar Code: */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #333;
+}
+.active {
+  background-color: #cc9876;
+}
+
+/*Instagram Button */
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+/* Gray */
+.default {
+  border-color:white;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+/*Images*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create FOUR equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 5px;
+}
